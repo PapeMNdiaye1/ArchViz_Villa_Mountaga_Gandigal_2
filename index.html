@@ -41,8 +41,8 @@ de haut standing" />
 
     </div>
 
-    <a-scene id="the_scene" the_scene cursor="rayOrigin: mouse">
-
+    <a-scene id="the_scene" the_scene cursor="rayOrigin: mouse"
+        loading-screen="dotsColor:black; backgroundColor: #f1f1f1 ">
         <a-sky id="image-360" radius="500" rotation="0 0 0" src="#Scene-5" look-controls-invert-y="false"
             animation__fade="property: components.material.material.color; type: color;  startEvents: fade"
             animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade">
@@ -605,7 +605,6 @@ de haut standing" />
                 position="0.32545 -1.34338 -1.90834" rotation="-87.31819502014233 86.85753695285715 1.3561911010746586"
                 the_dote="Name_of_dote: Dote-26 ; Group_to_activate: Group-26 ; The_rotation:  0">
             </a-plane>
-
 
         </a-entity>
         <!-- ############################################################ -->
